@@ -1,12 +1,10 @@
-const app = document.getElementById('root');
+document.write("Something works");
 
-const logo = document.createElement('img');
-logo.src = 'logo.png';
+const app = document.getElementById('root');
 
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
 
-app.appendChild(logo);
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
